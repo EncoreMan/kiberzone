@@ -1,0 +1,326 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2vh;
+}
+
+.rectangle {
+    width: 5vw;
+    height: 0.3vh;
+    background-color: black;
+}
+
+body{
+    font-family: mulish;
+}
+
+h2{
+    font-size: 3.5vh;
+}
+
+p{
+    font-size: 2.6vh;
+}
+
+#log{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+nav{
+    width: 60vmin;
+    display: flex;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: mulish;
+    src: url(font/Mulish.ttf);
+}
+
+header > div > p{
+    font-size: 2.5vh;
+    font-family: mulish;
+}
+
+nav > a{
+    color: #1F1534;
+    font-family: mulish;
+}
+
+#logo{
+    border: 0.6vmin solid #DEEEFE;
+    border-radius: 50vmin;
+    background-color: #DEEEFE;
+}
+
+
+/* Home секция в css */
+
+#home{
+    padding-left: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home_text > h1{
+
+    font-size: 6.3vh;
+    color: #3C567B;
+}
+
+#home_text > p{
+
+    font-size:2.6vh;
+    color: #93C1F9;
+}
+
+#consult{
+    margin-top: 13vh;
+    margin-left: 5vw;
+    padding: 2vmin;
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+    border-radius: 5vh;
+    border-color: #458FF6;
+    background-color: #458FF6;
+    color: #FFFFFF;
+}
+
+#home_picture{
+    padding-right: 1vw;
+    margin-top: 15vh;
+    width: 50vw;
+    height: auto;
+}
+
+/* Find секция в css */
+
+#find{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#find_text{
+    padding-left: 18vw;
+    padding-right: 18vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+#find_text > h1{
+    font-size: 6.3vh;
+    color: #462E6A;
+}
+
+#find_text > p{
+    font-size: 2.5vh;
+    color: #CCD2E9;
+}
+
+#find_blocks{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.block{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 20vw;
+    border: 0.6vmin solid #fffff9;
+    border-radius: 2vh;
+    background-color: #fffff9;
+    margin-bottom: 5vh;
+    box-shadow: 1.5vw 3vh 6vmin #000000;
+    transition: 1s;
+}
+
+.block:hover{
+    transform: translateX(-1.5vw) translateY(-1vh);
+}
+
+.block > p{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1.7vh;
+    color: #7D7987;
+}
+
+.frame{
+    height: 7vh;
+}
+
+.button{
+    margin-top: 13vh;
+    margin-left: 5vw;
+    padding: 2vmin;
+    padding-left: 5vmin;
+    padding-right: 5vmin;
+    border-radius: 5vh;
+    border-color: #458FF6;
+    background-color: #ffffff;
+    color: #458FF6;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    transition: border-color 5s;
+}
+
+/*Apps секция в css*/
+
+#apps{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 15vh;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.first{
+    padding-bottom: 15vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+#apps_text{
+    width: 35vw;
+}
+
+#apps_text > h1{
+    font-size: 5vh;
+    color: #462E6A;
+}
+
+.first > img{
+    height: 50vh;
+    width: 40vw
+}
+
+#second{
+    padding-bottom: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Testimonials us секция в css*/
+
+#testimonials{
+    background-color: #6888C8;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1vmin solid #6888C8;
+    border-radius: 5vh;
+    margin: 7vmin;
+}
+
+#testimonials > .rectangle{
+    background-color: white;
+}
+
+#blocks_test{
+    margin: 5vh;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.test{
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 2.6vw 2vh 4.5vw #FFFFFF;
+    height: 35vh;
+    width: 20vw;
+    margin-right: 3.5vw;
+    margin-left: 3.5vw;
+    background-color: #FFFFFF;
+    border: 1vmin solid #ffffff;
+    border-radius: 4vmin;
+}
+
+.wth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wth > h2{
+    margin-left:4.3vw;
+    font-size:4vh;
+}
+
+.wth > img{
+    height: 13vh;
+    width: 7vw;
+}
+
+/*Footer секция в css*/
+footer{
+    background-color: #6888C8;
+}
+
+#footer_conteiners{
+    padding: 4vmax;
+    display: flex;
+    flex-flow: row;
+}
+
+#first_foot{
+    width: 40vw;
+    height: 8vh;
+    padding-right: 10vw;
+    list-style-type: none;
+}
+
+#first_foot > h1{
+    font-size: 4.2vh;
+    color: #FFFFFF;
+}
+
+#first_foot > h3{
+    font-size: 2.5vh;
+    color: #FFFFFF;
+}
+
+#first_foot > p{
+    font-size: 1.5vh;
+    color: #FFFFFF;
+}
+
+.second_foot{
+    display: flex;
+    flex-flow: column;
+    width: 15vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+.second_foot > h3{
+    font-size: 2.5vh;
+    color: #FFFFFF;
+}
+
+.second_foot > li{
+    font-size: 2.3vh;
+    color: #FFFFFF;
+}
